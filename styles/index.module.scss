@@ -1,0 +1,39 @@
+.main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #fdd9db;
+     color: #fff;
+     background-image: url('../public/images/background-patas.png');
+     background-size: cover;
+}
+
+.title {
+     text-shadow: 6px 6px 5px #555666;
+     margin: 5px;
+     font-size: 62pt;
+}
+
+.subtitle {
+     text-shadow: 6px 6px 5px #555666;
+     font-size: 20pt;
+     margin: 0px;
+}
+
+.button {
+     padding: 10px;
+     margin-top: 30px;
+     font-size: 18pt;
+     width: 300px;
+     cursor: pointer;
+     color: #555666;
+     border: 1px solid #555666;
+     border-radius: 15px;
+     font-weight: 100;
+}
+
+.cao {
+     margin: 5px;
+}

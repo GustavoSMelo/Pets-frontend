@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+     font-family: fredokaOne;
+     src: url('../public/FredokaOne-Regular.ttf');
+}
+
+* {
+     font-family: fredokaOne;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     box-sizing: border-box;
+}
+
+html, body {
+     margin: 0;
+     padding: 0;
+}
