@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/index.module.scss';
 
 const Home = () => {
@@ -15,9 +16,11 @@ const Home = () => {
                <h6 className={styles.subtitle}>De-stress with</h6>
                <h1 className={styles.title}>Cute Pets</h1>
 
-               <button className={styles.button} type='button'>
-                    Start
-               </button>
+               <Link href='/app'>
+                    <button className={styles.button} type='button'>
+                         Start
+                    </button>
+               </Link>
           </main>
      );
 }
